@@ -1,0 +1,117 @@
+export interface WordEntry {
+  word: string;
+  hint: string;
+  category: string;
+}
+
+export const portugueseNormal: WordEntry[] = [
+  // Animais
+  { word: "tigre", hint: "a big orange cat with stripes", category: "Animals" },
+  { word: "cobra", hint: "a long reptile with no legs", category: "Animals" },
+  { word: "baleia", hint: "the largest animal in the ocean", category: "Animals" },
+  { word: "cavalo", hint: "an animal people ride", category: "Animals" },
+  { word: "girafa", hint: "the animal with the longest neck", category: "Animals" },
+  { word: "macaco", hint: "an animal that climbs trees", category: "Animals" },
+  { word: "pinguim", hint: "a black and white bird from cold places", category: "Animals" },
+  { word: "elefante", hint: "the largest land animal", category: "Animals" },
+  { word: "galinha", hint: "a bird that lays eggs on a farm", category: "Animals" },
+  { word: "coelho", hint: "a fluffy animal with long ears", category: "Animals" },
+  { word: "borboleta", hint: "an insect with colourful wings", category: "Animals" },
+  { word: "tubarão", hint: "a big scary fish", category: "Animals" },
+  { word: "peixe", hint: "an animal that swims in water", category: "Animals" },
+  { word: "leão", hint: "the king of the jungle", category: "Animals" },
+  { word: "lobo", hint: "a wild animal like a big dog", category: "Animals" },
+  { word: "urso", hint: "a big furry animal that loves honey", category: "Animals" },
+  // Cores
+  { word: "verde", hint: "the colour of leaves and grass", category: "Colours" },
+  { word: "laranja", hint: "the colour of an orange fruit", category: "Colours" },
+  { word: "amarelo", hint: "the colour of the sun", category: "Colours" },
+  { word: "branco", hint: "the colour of snow", category: "Colours" },
+  { word: "preto", hint: "the colour of night", category: "Colours" },
+  { word: "roxo", hint: "the colour of grapes", category: "Colours" },
+  { word: "cinza", hint: "the colour of clouds on a rainy day", category: "Colours" },
+  { word: "rosa", hint: "a light colour like flowers", category: "Colours" },
+  // Comida
+  { word: "tomate", hint: "a red round food used in sauce", category: "Food" },
+  { word: "banana", hint: "a yellow curved fruit", category: "Food" },
+  { word: "cereja", hint: "a small red fruit", category: "Food" },
+  { word: "queijo", hint: "a dairy food made from milk", category: "Food" },
+  { word: "salada", hint: "a healthy meal with lettuce", category: "Food" },
+  { word: "frango", hint: "meat from a chicken", category: "Food" },
+  { word: "cenoura", hint: "an orange vegetable rabbits love", category: "Food" },
+  { word: "melão", hint: "a big sweet summer fruit", category: "Food" },
+  { word: "pão", hint: "we make toast with this", category: "Food" },
+  { word: "maçã", hint: "a red or green fruit", category: "Food" },
+  { word: "limão", hint: "a yellow sour fruit", category: "Food" },
+  { word: "uva", hint: "a small purple or green fruit", category: "Food" },
+  // Corpo
+  { word: "nariz", hint: "we use this to smell things", category: "Body" },
+  { word: "joelho", hint: "the joint in the middle of your leg", category: "Body" },
+  { word: "coração", hint: "the organ that pumps blood", category: "Body" },
+  { word: "dente", hint: "we use these to chew food", category: "Body" },
+  { word: "cabelo", hint: "it grows on your head", category: "Body" },
+  { word: "dedo", hint: "you have five of these on each hand", category: "Body" },
+  // Natureza
+  { word: "nuvem", hint: "it floats in the sky and brings rain", category: "Nature" },
+  { word: "chuva", hint: "water that falls from the sky", category: "Nature" },
+  { word: "árvore", hint: "a tall plant with a trunk and leaves", category: "Nature" },
+  { word: "praia", hint: "where sand meets the sea", category: "Nature" },
+  { word: "oceano", hint: "a vast body of salt water", category: "Nature" },
+  { word: "flor", hint: "the colourful part of a plant", category: "Nature" },
+  { word: "pedra", hint: "a small rock", category: "Nature" },
+  { word: "terra", hint: "the ground we walk on", category: "Nature" },
+  { word: "vento", hint: "moving air you can feel", category: "Nature" },
+  // Escola
+  { word: "escola", hint: "the place where you learn", category: "School" },
+  { word: "lápis", hint: "we use this to write and draw", category: "School" },
+  { word: "borracha", hint: "erases pencil mistakes", category: "School" },
+  { word: "caderno", hint: "a book with blank pages for writing", category: "School" },
+  { word: "mochila", hint: "a bag you carry on your back to school", category: "School" },
+  { word: "livro", hint: "we read stories in this", category: "School" },
+  { word: "régua", hint: "we measure straight lines with this", category: "School" },
+  // Casa
+  { word: "janela", hint: "glass in the wall that lets light in", category: "Home" },
+  { word: "cozinha", hint: "the room where we cook food", category: "Home" },
+  { word: "almofada", hint: "we rest our head on this", category: "Home" },
+  { word: "cama", hint: "we sleep in this", category: "Home" },
+  { word: "porta", hint: "we open this to enter a room", category: "Home" },
+  { word: "mesa", hint: "we eat meals at this", category: "Home" },
+];
+
+export const portugueseChallenging: WordEntry[] = [
+  // Animais
+  { word: "crocodilo", hint: "a large reptile that lives in rivers", category: "Animals" },
+  { word: "flamingo", hint: "a pink bird that stands on one leg", category: "Animals" },
+  { word: "rinoceronte", hint: "a large animal with a horn on its nose", category: "Animals" },
+  { word: "camaleão", hint: "a lizard that changes colour", category: "Animals" },
+  { word: "chimpanzé", hint: "an ape that is very intelligent", category: "Animals" },
+  { word: "tartaruga", hint: "a reptile with a shell", category: "Animals" },
+  { word: "leopardo", hint: "a big spotted wild cat", category: "Animals" },
+  { word: "polvo", hint: "a sea creature with eight arms", category: "Animals" },
+  // Comida
+  { word: "morango", hint: "a sweet red fruit", category: "Food" },
+  { word: "ananás", hint: "a tropical fruit with spiky leaves", category: "Food" },
+  { word: "melancia", hint: "a big green fruit, red inside", category: "Food" },
+  { word: "pepino", hint: "a cool green vegetable", category: "Food" },
+  { word: "abacate", hint: "a creamy green fruit", category: "Food" },
+  { word: "mirtilo", hint: "a small blue berry", category: "Food" },
+  { word: "beringela", hint: "a purple vegetable", category: "Food" },
+  { word: "couve-flor", hint: "a white vegetable that looks like a flower", category: "Food" },
+  // Natureza
+  { word: "terremoto", hint: "when the ground shakes", category: "Nature" },
+  { word: "montanha", hint: "a very tall hill", category: "Nature" },
+  { word: "cachoeira", hint: "water that falls from a high cliff", category: "Nature" },
+  { word: "relâmpago", hint: "a flash of light during a storm", category: "Nature" },
+  { word: "floresta", hint: "many trees together", category: "Nature" },
+  // Escola e Ações
+  { word: "dicionário", hint: "a book with word definitions", category: "School" },
+  { word: "professor", hint: "the person who teaches at school", category: "School" },
+  { word: "natação", hint: "moving through water", category: "Actions" },
+  { word: "escalada", hint: "going up high", category: "Actions" },
+  { word: "pintura", hint: "creating pictures with paint", category: "Actions" },
+  { word: "corrida", hint: "moving very fast on foot", category: "Actions" },
+  { word: "dança", hint: "moving to music", category: "Actions" },
+  { word: "leitura", hint: "looking at words to understand them", category: "Actions" },
+  { word: "desenho", hint: "making pictures with a pencil", category: "Actions" },
+  { word: "música", hint: "sounds that are pleasing to hear", category: "Actions" },
+];

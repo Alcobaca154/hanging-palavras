@@ -1,0 +1,118 @@
+export interface WordEntry {
+  word: string;
+  hint: string;
+  category: string;
+}
+
+export const englishNormal: WordEntry[] = [
+  // Animals
+  { word: "horse", hint: "um animal que as pessoas montam", category: "Animals" },
+  { word: "tiger", hint: "um grande gato laranja com listras", category: "Animals" },
+  { word: "eagle", hint: "uma grande ave que voa alto", category: "Animals" },
+  { word: "shark", hint: "um peixe grande e assustador", category: "Animals" },
+  { word: "whale", hint: "o maior animal do oceano", category: "Animals" },
+  { word: "parrot", hint: "um pássaro colorido que fala", category: "Animals" },
+  { word: "rabbit", hint: "um animal fofo com orelhas longas", category: "Animals" },
+  { word: "turtle", hint: "um réptil com uma concha", category: "Animals" },
+  { word: "monkey", hint: "um animal que sobe em árvores", category: "Animals" },
+  { word: "penguin", hint: "uma ave preta e branca do Ártico", category: "Animals" },
+  { word: "elephant", hint: "o maior animal terrestre", category: "Animals" },
+  { word: "butterfly", hint: "um inseto com asas coloridas", category: "Animals" },
+  { word: "dolphin", hint: "um animal inteligente do mar", category: "Animals" },
+  { word: "giraffe", hint: "o animal com o pescoço mais longo", category: "Animals" },
+  { word: "lion", hint: "o rei da selva", category: "Animals" },
+  // Colours
+  { word: "green", hint: "a cor das folhas", category: "Colours" },
+  { word: "purple", hint: "a cor de uvas", category: "Colours" },
+  { word: "orange", hint: "a cor de uma laranja", category: "Colours" },
+  { word: "yellow", hint: "a cor do sol", category: "Colours" },
+  { word: "black", hint: "a cor da noite", category: "Colours" },
+  { word: "white", hint: "a cor da neve", category: "Colours" },
+  { word: "brown", hint: "a cor do chocolate", category: "Colours" },
+  { word: "pink", hint: "uma cor clara como rosas", category: "Colours" },
+  { word: "silver", hint: "a cor metálica brilhante", category: "Colours" },
+  // Food
+  { word: "apple", hint: "uma fruta vermelha ou verde", category: "Food" },
+  { word: "bread", hint: "fazemos torradas com isto", category: "Food" },
+  { word: "lemon", hint: "uma fruta amarela e ácida", category: "Food" },
+  { word: "carrot", hint: "um legume laranja que os coelhos adoram", category: "Food" },
+  { word: "cherry", hint: "uma pequena fruta vermelha", category: "Food" },
+  { word: "pizza", hint: "comida italiana redonda com queijo", category: "Food" },
+  { word: "salad", hint: "uma refeição saudável com alface", category: "Food" },
+  { word: "grape", hint: "uma pequena fruta roxa ou verde", category: "Food" },
+  { word: "mango", hint: "uma fruta tropical doce e amarela", category: "Food" },
+  { word: "onion", hint: "um vegetal que faz os olhos chorar", category: "Food" },
+  { word: "peach", hint: "uma fruta suave e macia", category: "Food" },
+  { word: "melon", hint: "uma fruta grande e doce do verão", category: "Food" },
+  // Body
+  { word: "elbow", hint: "a articulação no meio do braço", category: "Body" },
+  { word: "smile", hint: "o que fazemos quando estamos felizes", category: "Body" },
+  { word: "thumb", hint: "o maior dedo da mão", category: "Body" },
+  { word: "ankle", hint: "a articulação entre a perna e o pé", category: "Body" },
+  { word: "cheek", hint: "a parte lateral do rosto", category: "Body" },
+  { word: "spine", hint: "os ossos nas costas", category: "Body" },
+  { word: "wrist", hint: "a articulação entre a mão e o braço", category: "Body" },
+  // Nature
+  { word: "cloud", hint: "flutua no céu e traz chuva", category: "Nature" },
+  { word: "ocean", hint: "um vasto corpo de água salgada", category: "Nature" },
+  { word: "beach", hint: "onde a areia encontra o mar", category: "Nature" },
+  { word: "flower", hint: "parte colorida de uma planta", category: "Nature" },
+  { word: "forest", hint: "muitas árvores juntas", category: "Nature" },
+  { word: "river", hint: "água que flui para o mar", category: "Nature" },
+  { word: "storm", hint: "clima com chuva e relâmpago", category: "Nature" },
+  { word: "stone", hint: "uma rocha pequena", category: "Nature" },
+  { word: "plant", hint: "algo verde que cresce na terra", category: "Nature" },
+  // School
+  { word: "pencil", hint: "usamos para escrever e desenhar", category: "School" },
+  { word: "crayon", hint: "usamos para colorir imagens", category: "School" },
+  { word: "eraser", hint: "apaga erros de lápis", category: "School" },
+  { word: "ruler", hint: "medimos linhas retas com isto", category: "School" },
+  { word: "paper", hint: "escrevemos nisto", category: "School" },
+  { word: "chalk", hint: "escrevemos no quadro com isto", category: "School" },
+  { word: "glue", hint: "usamos para colar coisas juntas", category: "School" },
+  // Home
+  { word: "bedroom", hint: "o quarto onde dormimos", category: "Home" },
+  { word: "window", hint: "vidro na parede por onde entra a luz", category: "Home" },
+  { word: "blanket", hint: "mantém-nos quentes na cama", category: "Home" },
+  { word: "pillow", hint: "apoiamos a cabeça nisto", category: "Home" },
+  { word: "kitchen", hint: "onde cozinhamos a comida", category: "Home" },
+  { word: "garden", hint: "espaço exterior para plantas", category: "Home" },
+];
+
+export const englishChallenging: WordEntry[] = [
+  // Animals
+  { word: "crocodile", hint: "um réptil grande que vive em rios", category: "Animals" },
+  { word: "flamingo", hint: "um pássaro rosa que fica numa perna", category: "Animals" },
+  { word: "rhinoceros", hint: "um animal grande com um corno", category: "Animals" },
+  { word: "chameleon", hint: "um lagarto que muda de cor", category: "Animals" },
+  { word: "porcupine", hint: "um animal com espinhos afiados", category: "Animals" },
+  { word: "hedgehog", hint: "um pequeno animal com puas", category: "Animals" },
+  { word: "cheetah", hint: "o animal terrestre mais rápido", category: "Animals" },
+  { word: "octopus", hint: "um animal do mar com oito braços", category: "Animals" },
+  // Food
+  { word: "strawberry", hint: "uma fruta vermelha doce", category: "Food" },
+  { word: "pineapple", hint: "uma fruta tropical com folhas espinhosas", category: "Food" },
+  { word: "watermelon", hint: "uma fruta grande verde e vermelha por dentro", category: "Food" },
+  { word: "cucumber", hint: "um vegetal verde e fresco", category: "Food" },
+  { word: "avocado", hint: "uma fruta verde cremosa", category: "Food" },
+  { word: "blueberry", hint: "uma pequena fruta azul", category: "Food" },
+  { word: "aubergine", hint: "um vegetal roxo", category: "Food" },
+  { word: "cauliflower", hint: "um vegetal branco parecido com uma flor", category: "Food" },
+  // Nature
+  { word: "earthquake", hint: "quando o chão treme", category: "Nature" },
+  { word: "hurricane", hint: "uma tempestade muito forte", category: "Nature" },
+  { word: "mountain", hint: "uma grande elevação de terra", category: "Nature" },
+  { word: "waterfall", hint: "água que cai de um penhasco alto", category: "Nature" },
+  { word: "lightning", hint: "um relâmpago durante uma tempestade", category: "Nature" },
+  // School & Actions
+  { word: "dictionary", hint: "um livro com definições de palavras", category: "School" },
+  { word: "geography", hint: "o estudo de países e mapas", category: "School" },
+  { word: "swimming", hint: "mover-se na água", category: "Actions" },
+  { word: "climbing", hint: "subir para cima", category: "Actions" },
+  { word: "painting", hint: "criar imagens com tintas", category: "Actions" },
+  { word: "sleeping", hint: "descansar com olhos fechados", category: "Actions" },
+  { word: "laughing", hint: "fazer sons quando algo é engraçado", category: "Actions" },
+  { word: "jumping", hint: "elevar-se do chão", category: "Actions" },
+  { word: "reading", hint: "olhar para palavras para as compreender", category: "Actions" },
+  { word: "dancing", hint: "mover o corpo ao ritmo da música", category: "Actions" },
+];
