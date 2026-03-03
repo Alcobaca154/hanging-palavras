@@ -20,7 +20,7 @@ export const englishNormal: WordEntry[] = [
   { word: "butterfly", hint: "um inseto com asas coloridas", category: "Animals" },
   { word: "dolphin", hint: "um animal inteligente do mar", category: "Animals" },
   { word: "giraffe", hint: "o animal com o pescoço mais longo", category: "Animals" },
-  { word: "lion", hint: "o rei da selva", category: "Animals" },
+  { word: "jaguar", hint: "um grande felino manchado da América", category: "Animals" },
   // Colours
   { word: "green", hint: "a cor das folhas", category: "Colours" },
   { word: "purple", hint: "a cor de uvas", category: "Colours" },
@@ -29,7 +29,7 @@ export const englishNormal: WordEntry[] = [
   { word: "black", hint: "a cor da noite", category: "Colours" },
   { word: "white", hint: "a cor da neve", category: "Colours" },
   { word: "brown", hint: "a cor do chocolate", category: "Colours" },
-  { word: "pink", hint: "uma cor clara como rosas", category: "Colours" },
+  { word: "lilac", hint: "uma cor suave como flores de lilás", category: "Colours" },
   { word: "silver", hint: "a cor metálica brilhante", category: "Colours" },
   // Food
   { word: "apple", hint: "uma fruta vermelha ou verde", category: "Food" },
@@ -69,7 +69,7 @@ export const englishNormal: WordEntry[] = [
   { word: "ruler", hint: "medimos linhas retas com isto", category: "School" },
   { word: "paper", hint: "escrevemos nisto", category: "School" },
   { word: "chalk", hint: "escrevemos no quadro com isto", category: "School" },
-  { word: "glue", hint: "usamos para colar coisas juntas", category: "School" },
+  { word: "staple", hint: "usamos para prender folhas juntas", category: "School" },
   // Home
   { word: "bedroom", hint: "o quarto onde dormimos", category: "Home" },
   { word: "window", hint: "vidro na parede por onde entra a luz", category: "Home" },
